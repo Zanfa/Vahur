@@ -12,7 +12,7 @@ task :build do
   haml_engine = Haml::Engine.new(File.read('index.haml'))
   html = haml_engine.render(Object.new, style: styles.join("\n"))
   
-  File.write('index.html', html)
+  File.write('build.html', html)
 
-  puts 'Generated index.html'
+  puts 'Generated build.html'
 end
