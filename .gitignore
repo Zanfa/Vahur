@@ -1,0 +1,13 @@
+# Bundler
+vendor/
+.bundle/
+
+# Sass
+.sass-cache/
+
+# Vim
+*.swp
+*.swo
+
+# Other
+index.html
