@@ -1,0 +1,20 @@
+header {
+  .name {}
+  .headline {}
+  .contact {
+    color: red;
+    span {
+      
+    }
+  }
+}
+
+.position {
+  .title, .company {
+    font-weight: bold; 
+  }
+
+  .company {
+    color: #DDD;
+  }
+}
