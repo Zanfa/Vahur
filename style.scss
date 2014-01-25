@@ -1,10 +1,69 @@
+$font-color: #222222;
+$secondary-font-color: #A5AAAD;
+$header-bg: #F5F5F5;
+$link-color: #2980b9;
+
+html, body {
+  background: $header-bg;
+}
+
+h1, h2, h3 {
+  font-family: Lato, Helvetica, Sans-Serif;
+  font-weight: 300;
+  color: $font-color;
+}
+
+p {
+  font-family: Lato, Helvetica, Arial;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 header {
-  .name {}
-  .headline {}
-  .contact {
-    color: red;
-    span {
-      
+
+  background: $header-bg;
+  padding: 100px 0;
+
+  .name {
+    color: $font-color;
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .headline {
+    color: $secondary-font-color;
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .contacts {
+    display: inline-box;
+
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+
+    .contact {
+      color: $link-color;
+      text-decoration: none;
+
+      margin-left: 15px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      i {
+        color: $font-color;
+      }
+
+      span {
+        padding-left: 3px; 
+      }
     }
   }
 }
