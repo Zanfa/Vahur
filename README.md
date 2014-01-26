@@ -17,4 +17,9 @@ and visit
 
     http://localhost:8000/build.html
 
+### Developing
+
+Run Guard to automatically regenerate build.html when index.haml or style.scss is updated
+
+    bundle exec guard
 
