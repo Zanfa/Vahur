@@ -3,6 +3,7 @@ $secondary-font-color: #A5AAAD;
 $bg: #F5F5F5;
 $link-color: #2980b9;
 $separator-color: #E0E0E0;
+$tag-color: #ccd9f1;
 
 html, body {
   background: $bg;
@@ -65,7 +66,7 @@ header {
       }
 
       span {
-        padding-left: 3px; 
+        padding-left: 3px;
       }
     }
   }
@@ -102,6 +103,18 @@ header {
 
   .description {
     line-height: 130%;
+  }
+
+  .tech {
+    margin: 5px 0 10px;
+    line-height: 140%;
+
+    span {
+      background-color: $tag-color;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-size: 15px;
+    }
   }
 
   // TODO: needs more experimentation
